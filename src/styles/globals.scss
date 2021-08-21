@@ -1,0 +1,21 @@
+@import "settings/__settings";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family-default;
+  background-color: $color-gray-50;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}

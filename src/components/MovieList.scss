@@ -1,0 +1,23 @@
+@import "../styles/globals.scss";
+
+.movie-list-container {
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pagination {
+    margin: 0.5em 0;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    color: $color-gray-400;
+    span {
+      padding-left: 1em;
+      cursor: pointer;
+      &.active {
+        color: $color-gray-900;
+      }
+    }
+  }
+}
